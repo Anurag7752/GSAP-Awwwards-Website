@@ -54,7 +54,7 @@ const FooterSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/public/images/insta.svg" alt="" />
+              <img src="/public/images/insta.svg" alt="Instagram" />
             </a>
           </div>
           <div className="social-btn">
@@ -63,7 +63,10 @@ const FooterSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/public/images/b61abe80-7bd4-11e9-8db4-03c18a436041.png" alt="LeetCode" />
+              <img
+                src="/public/images/b61abe80-7bd4-11e9-8db4-03c18a436041.png"
+                alt="LeetCode"
+              />
             </a>
           </div>
         </div>
