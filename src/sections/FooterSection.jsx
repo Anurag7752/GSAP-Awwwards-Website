@@ -8,7 +8,7 @@ const FooterSection = () => {
   return (
     <section className="footer-section">
       <img
-        src="/assets/images/footer-dip.png"
+        src="/images/footer-dip.png"
         alt=""
         className="w-full object-cover -translate-y-1"
       />
@@ -22,12 +22,12 @@ const FooterSection = () => {
 
         {isMobile ? (
           <img
-            src="/assets/images/footer-drink.png"
+            src="/images/footer-drink.png"
             className="absolute top-0 object-contain"
           />
         ) : (
           <video
-            src="/assets/videos/splash.mp4"
+            src="/videos/splash.mp4"
             autoPlay
             playsInline
             muted
@@ -43,7 +43,7 @@ const FooterSection = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/assets/images/linkedin-logo-black-svg.webp"
+                src="/images/linkedin-logo-black-svg.webp"
                 alt="LinkedIn"
               />
             </a>
@@ -54,7 +54,7 @@ const FooterSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/assets/images/insta.svg" alt="Instagram" />
+              <img src="/images/insta.svg" alt="Instagram" />
             </a>
           </div>
           <div className="social-btn">
@@ -64,7 +64,7 @@ const FooterSection = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/assets/images/b61abe80-7bd4-11e9-8db4-03c18a436041.png"
+                src="/images/b61abe80-7bd4-11e9-8db4-03c18a436041.png"
                 alt="LeetCode"
               />
             </a>
@@ -102,7 +102,7 @@ const FooterSection = () => {
                 placeholder="Enter your email"
                 className="w-full placeholder:font-sans placeholder:text-[#999999]"
               />
-              <img src="/assets/images/arrow.svg" alt="arrow" />
+              <img src="/images/arrow.svg" alt="arrow" />
             </div>
           </div>
         </div>
